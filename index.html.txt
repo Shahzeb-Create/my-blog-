@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <a href="/" class="logo">My Blog</a>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Blog Posts Grid -->
+    <main class="container">
+        <h1>Latest Posts</h1>
+        <div class="posts-grid">
+            <!-- Blog Post 1 -->
+            <article class="post-card">
+                <img src="https://via.placeholder.com/400x250" alt="Post thumbnail">
+                <div class="post-content">
+                    <h2><a href="/posts/post1.html">How to Start a Remote Land Business</a></h2>
+                    <p class="post-date">Published on: October 1, 2023</p>
+                    <p>A step-by-step guide to building a location-independent land acquisition business.</p>
+                </div>
+            </article>
+
+            <!-- Blog Post 2 -->
+            <article class="post-card">
+                <img src="https://via.placeholder.com/400x250" alt="Post thumbnail">
+                <div class="post-content">
+                    <h2><a href="/posts/post2.html">Top Tools for Remote Freelancers</a></h2>
+                    <p class="post-date">Published on: October 5, 2023</p>
+                    <p>Essential software and apps to manage your freelance workflow.</p>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>© 2023 My Blog. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
